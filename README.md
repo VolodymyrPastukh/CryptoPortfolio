@@ -1,6 +1,7 @@
 # CryptoPortfolio
+`v1.0.0`
 
-##### The simplest implementation of crypto portfolio for analytics of daily operations with crypto.  
+### The simplest implementation of crypto portfolio for analytics of daily operations with crypto.  
 >I guess it is the best in the global network!
 
 The app fetches data from the Google Sheet with your crypto operations to analyze data and calculate profit/loss for each ticker.
