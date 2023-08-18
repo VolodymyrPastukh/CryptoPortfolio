@@ -10,9 +10,9 @@ In the app is used Binance API to get actual prices for most of the pairs.
 - python 3+
 - pip (to install all additional packages)
 - created Google Sheet with operations info in a special format
-  > sheet must be opened for view
-  > sheet must contain the next columns ['Date','Ticker','Amount','Price']
-  > sheet can contain additional columns
+  1. sheet must be opened for view
+  2. sheet must contain the next columns ['Date','Ticker','Amount','Price']
+  3. sheet can contain additional columns
 - connection to the network
 
 ### Install 
