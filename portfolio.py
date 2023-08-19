@@ -4,11 +4,8 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
-from binance import Client
-from datetime import datetime as dt
 import warnings
 import json
-import os
 from utils import *
 from binance_parser import binance_parsing_process
 warnings.filterwarnings('ignore')
