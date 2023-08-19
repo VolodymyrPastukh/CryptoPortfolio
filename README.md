@@ -1,5 +1,5 @@
 # CryptoPortfolio
-`v1.0.0`
+`v1.1.0`
 
 ### The simplest implementation of crypto portfolio for analytics of daily operations with crypto.  
 >I guess it is the best in the global network!
@@ -7,7 +7,7 @@
 The app fetches data from the Google Sheet with your crypto operations to analyze data and calculate profit/loss for each ticker.
 In the app is used Binance API to get actual prices for most of the pairs.
 
-### Prerequisites 
+### Prerequisites
 - python 3+
 - pip (to install all additional packages)
 - created Google Sheet with operations info in a special format
@@ -16,8 +16,11 @@ In the app is used Binance API to get actual prices for most of the pairs.
   3. sheet can contain additional columns
 - connection to the network
 
-### Install 
+### Install
 - clone the project
 - in the directory create ***config.json*** file (for Google Sheets config)
   > example of config.json: `{ "sheet_id":"PUT_SHEET_ID", "sheet_name":"PUT_SHEET_NAME" }`
 - run `python3 portfolio.py`
+
+### Version v1.1.0 updates
+- implemented Binance spot operations history parser, which allow to generate `spot_history.csv` file to import to the Google Sheet
