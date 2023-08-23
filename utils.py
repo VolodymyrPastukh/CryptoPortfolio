@@ -125,7 +125,7 @@ def t_amount(df, ticker:str):
     return df[df['Ticker'] == ticker]['Amount'].sum()
 
 def t_average_purchase_price(df, ticker:str):
-    return df[df['Ticker'] == ticker]['Price'].mean()
+    return df[df['Ticker'] == ticker]['Price'].mean() / df[df['Ticker'] == ticker]['Amount']].sum()
 
 def all_purchases_sum(df):
     return(df['Amount'] * df['Price']).sum()
